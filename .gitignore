@@ -1,0 +1,34 @@
+# Build outputs
+bin/
+obj/
+out/
+publish/
+
+# .NET
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+project.lock.json
+project.fragment.lock.json
+
+# Visual Studio
+.vs/
+*.rsuser
+.localhistory/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets
+.env
+.env.local
+appsettings.local.json
+
+# OS
+.DS_Store
+Thumbs.db

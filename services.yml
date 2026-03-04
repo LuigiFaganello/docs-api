@@ -1,0 +1,12 @@
+services:
+  - id: petstore
+    name: Petstore API
+    description: Swagger Petstore v1.0.7 — exemplo oficial de API Swagger 2.0
+    specUrl: https://petstore.swagger.io/v2/swagger.json
+    ttl: 3600
+
+  - id: fakestore
+    name: Fake Store API
+    description: FakeStoreAPI v2.1.11 — API fake para protótipos de e-commerce (produtos, carrinhos, usuários)
+    specUrl: https://fakestoreapi.com/docs-data
+    ttl: 3600

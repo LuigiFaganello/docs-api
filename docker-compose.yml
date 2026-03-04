@@ -1,0 +1,13 @@
+services:
+  docs-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./services.yml:/app/services.yml:ro
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - SERVICES_FILE=/app/services.yml
+    restart: unless-stopped
